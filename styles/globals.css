@@ -16,3 +16,136 @@ a {
   box-sizing: border-box;
   font-family: "Cabin";
 }
+
+.form {
+  max-width: 1000px;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.input {
+  width: 100%;
+  margin: 20px;
+  display: block;
+  padding: 15px;
+  font-size: 15px;
+  border-radius: 10px;
+  font-family: "Cabin", sans-serif;
+  border: 0;
+  box-shadow: 0 0 50px 4px rgba(0, 0, 0, 0.14);
+}
+
+.textarea {
+  width: 100%;
+  margin: 20px;
+  display: block;
+  padding: 15px;
+  height: 200px;
+  font-size: 20px;
+  border-radius: 10px;
+  font-family: "Cabin", sans-serif;
+  border: 0;
+  box-shadow: 0 0 50px 4px rgba(0, 0, 0, 0.14);
+}
+
+.label {
+  font-size: 20px;
+}
+
+.btn {
+  font-size: 25px;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid white;
+  margin: 0.5em 0.4em;
+  border-radius: 0.12em;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  transition: all 0.2s;
+  background-color: transparent;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.btn:hover {
+  color: black;
+  background-color: white;
+}
+
+.homeContainer {
+  flex-direction: column;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  font-size: 30px;
+  text-align: center;
+}
+
+.btnHolder {
+  text-align: center;
+  font-size: 25px;
+}
+
+.layoutContainer {
+  margin: 30px 70px;
+}
+
+.layoutHeader {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 150px;
+  font-size: 18px;
+}
+
+.workContainer {
+  width: 99%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.project {
+  position: relative;
+  margin-top: 60px;
+  border-radius: 10px;
+  padding: 40px 40px 20px 40px;
+  background: #1a508b;
+  box-shadow: 0 0 2rem 10px rgba(0, 0, 0, 0.15);
+  transition: all 0.2s ease-out;
+}
+
+.project:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  background-color: #296da8;
+  box-shadow: 0 0 8rem 30px rgba(0, 0, 0, 0.2);
+}
+
+.image {
+  width: 100%;
+}
+
+.link {
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}

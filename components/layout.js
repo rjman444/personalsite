@@ -1,26 +1,24 @@
-import styles from "../styles/Layout.module.css";
 import Link from "next/link";
 
 export default function Layout({ children }) {
   return (
-    <div className={styles.container}>
-      <header className={styles.header}>
-        <div className={styles.logo}>
+    <div className="layoutContainer">
+      <header className="layoutHeader">
+        <div className="logo">
           <Link href="/">
             <a>Ryan Jansen</a>
           </Link>
         </div>
-        <div className={styles.menu}>
-          <Link href="/work" className={styles.link}>
+        <div className="menu">
+          <Link href="/work" className="layoutLink">
             <a>Work</a>
           </Link>
-          <Link href="/contact" className={styles.link}>
+          <Link href="/contact" className="layoutLink">
             <a>Contact</a>
           </Link>
         </div>
       </header>
       <main>{children}</main>
-      <footer className={styles.footer}></footer>
     </div>
   );
 }

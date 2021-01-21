@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import styles from "../styles/home.module.css";
+
 import Layout from "../components/layout";
 
 export default function Home() {
@@ -10,16 +10,16 @@ export default function Home() {
         <title>Ryan Jansen | Web Developer</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className={styles.container}>
-        <div className={styles.header}>
+      <div className="homeContainer">
+        <div className="header">
           <h1>Hi, I'm Ryan & I'm a web developer.</h1>
         </div>
-        <div className={styles.btnHolder}>
+        <div className="btnHolder">
           <Link href="/work">
-            <a className={styles.btn}>My Work</a>
+            <a className="btn">My Work</a>
           </Link>
           <Link href="/contact">
-            <a className={styles.btn}>Contact Me</a>
+            <a className="btn">Contact Me</a>
           </Link>
         </div>
       </div>
